@@ -202,3 +202,12 @@ Chrome 111+, or Firefox 128+; consider browser support when changing the stack.
 
 For branch inquiries, email [ucscieee@gmail.com](mailto:ucscieee@gmail.com) or
 visit [ucscieee.lk](https://ucscieee.lk).
+
+
+## Implementation Notes
+
+1. **Design:** The blog uses the site’s existing Tailwind color palette, typography, spacing, card styling, and navigation patterns to maintain a consistent IEEE UCSC visual identity.
+
+2. **Performance:** Featured images use Next.js `Image` with responsive sizing and `object-cover` to preserve layouts. Long titles and descriptions use line clamping so cards remain aligned and readable.
+
+3. **Improvements:** With more time, I would add blog category filtering and search to help visitors find articles quickly.
